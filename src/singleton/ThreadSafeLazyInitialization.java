@@ -5,7 +5,7 @@ public class ThreadSafeLazyInitialization {
 
     private ThreadSafeLazyInitialization(){}
 
-    public static synchronized ThreadSafeLazyInitialization getInstance(){
+    public static ThreadSafeLazyInitialization getInstance(){
         if( threadSafeLazyInitialization == null ){
             threadSafeLazyInitialization = new ThreadSafeLazyInitialization();
         }
