@@ -55,6 +55,7 @@ public class Member {
         public Builder(String id, String name) {
             this.id = id;
             this.name = name;
+
         }
 
         public Builder setAge(int age) {
