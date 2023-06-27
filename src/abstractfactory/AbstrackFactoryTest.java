@@ -11,5 +11,6 @@ public class AbstrackFactoryTest {
 
         move.move();
         attack.attack();
+        //test connect
     }
 }
